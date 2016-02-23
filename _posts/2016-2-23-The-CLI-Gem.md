@@ -7,4 +7,3 @@ The learning experience with 'Learn' has been pretty awesome so far. Today I am 
 Going through previous lessons on scraping and Avi's video lecture on this topic.
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
