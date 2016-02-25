@@ -9,6 +9,6 @@ And deciding on a domain for this project ...
 
 Yesterday finally, finalised the domain for the project. .While working on it, found out some web pages make scarping them not very easy!.Though google helped me with a alternate page just in time.
 
-Still trying to format the content to how I would like it...which actually makes me want to change the underlying data structure that I created...some big decisions to be made today..
+Still trying to format the content to how I would like it...which actually makes me want to change the underlying data structure that I created...some big decisions to be made today.
 
 
