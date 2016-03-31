@@ -1,4 +1,4 @@
 ---
 layout: post
-title: The CLI Gem project!
+title: Sinatra MVC!
 ---
