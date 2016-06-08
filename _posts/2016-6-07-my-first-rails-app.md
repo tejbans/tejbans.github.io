@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Rails App!
+title: First Rails App...
 ---
 
 
