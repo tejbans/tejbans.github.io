@@ -3,7 +3,7 @@ layout: post
 title: First Rails App...
 ---
 
-Learning Ruby has been a satisfying journey. And  Rails 'magic' just adds to the experience and makes it more special.
+Learning Ruby, has been very satisfying. And the Rails 'magic' just adds to the experience and makes it more special.
 Getting into coding my first rails app was challenging and satisfying. 
 I decided on building a Task Manager App,  where Tasks could be created/categorized and then shared among many users. 
 
