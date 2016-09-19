@@ -5,8 +5,8 @@ title: Single Page App with AngularJSRails and Rails...
 
 For my final project on the Learn Verified program, I had to create a single page application using AngularJS with a Rails JSON back-end.
 
-It was challenging at first to get started on this project, because though I had gone through the lessons on AngularJS in isolation, I did not not know how to integrate it with Ruby on Rails.
-Questions like do I start a new rails project first and add AngulaJS or vice versa. And to top it, AngularJS just seemed very different from Ruby.
+It was challenging at first to get started on this project, because even though I had gone through the lessons on AngularJS in isolation, I did not not know how to integrate it with Ruby on Rails.
+Questions like - do I start a new Rails project first and add AngulaJS or vice versa. And to top it, AngularJS just seemed very different from Ruby.
 
 So after several google search's and reaching out to our learn instructor with a excellent blog on how to achieve this, I was up and running.
 
