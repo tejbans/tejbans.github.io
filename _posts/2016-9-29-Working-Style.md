@@ -27,4 +27,4 @@ So when begining a new project or assigment:
 
  When the right balance between functionality and pretty is reached, it is very satisfying (that is, until next update!).
  
- ***
+ 
