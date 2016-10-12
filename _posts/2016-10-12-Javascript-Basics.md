@@ -11,7 +11,7 @@ How to define variables in Javascript?
 Variable definitions should always start with the keyword 'var' (see example below).
 Notice that no types are declared in JavaScript.
 
-Ex: var greeting = "hello";
+    var greeting = "hello";
 
 Reason that is, is because JavaScript is a 'dynamically typed language'. 
 That means JavaScript engine figures out the type of a particular variable at runtime.
@@ -36,7 +36,7 @@ Arguments can be passed to the Javascript fucntions, they are defined without th
 And if you want the function to return some value , you use the 'return' keyword followed by whatever value you want to return. Ex:
     
     function greeting (name){
-     return "Hello" + name;
+     return "Hello " + name;
     }
     
 **Scope**
