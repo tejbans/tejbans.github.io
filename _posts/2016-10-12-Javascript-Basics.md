@@ -46,7 +46,28 @@ For example a function invocation creates a new execution context, within which 
 This outer environment or context is called global scope. 
 Variables and functions defined here are available everywhere.
 Whereas in the function context, variables and functions defined there are only available within that function.
+
+**Javascript Types**
+
+Javascript has 7 built-in types : 6 primitive and 1 object type.
+
+Object Type: This is a collection of name/value pair. Ex:
+    Dog Object
+    {
+      name: "Goofy",
+      breed: "Lab"
+    }
     
+Primitive Types: They represent a single immutable value. The primitive types are:
+
+    1. Boolean  : Can only have 2 values: true or false
+    2. Number   : Numeric type, represented as a double-precision 64-bit floating point.
+    3. String   : Any sequence of characters used to represent text. i.e. 'text'.
+    4. Null     : Null signifies lacl of value. Can only have one value: null.
+    5. Undefined: Signifies that no value has ever been set. Can only have one value: undefined.
+    6. Symbol   : A symbol is a unique and immutable data type. May be used as an identifier for Object Properties.
+
+
     
     
     
