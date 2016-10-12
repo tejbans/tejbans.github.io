@@ -19,20 +19,20 @@ And it also means that the same variable can hold different types during the lif
    
 **Functions**
 
-Functions are defined by using the keyword function followed by the function name. See below
+Functions are defined by using the keyword 'function' followed by the function name.
 In example below "greeting" is the Function name
     
     function greeting(){
     ...
     }
     
-Another way to define a function is in Javascript is by creating a variable and set it equal to a function.
+Another way to define a function in Javascript is by creating a variable and set it equal to a function.
 If defined this way, no name is defined after the function keyword.Ex.
     
     var greeting = function() {...}
     
 Functions are executed by referring to its name. Ex: greeting();
-Arguments can be passed to the Javascript fucntions, they are defined without the keyword 'var'. 
+Arguments can be passed to the Javascript functions, they are defined without the keyword 'var'. 
 And if you want the function to return some value , you use the 'return' keyword followed by whatever value you want to return. Ex:
     
     function greeting (name){
@@ -42,10 +42,10 @@ And if you want the function to return some value , you use the 'return' keyword
 **Scope**
 
 Everything in JavaScript is executed in an execution context.
-For example a function invocation creates a new execution context whithin which that function is executed. This execution context also get a reference to its outer environment. 
+For example a function invocation creates a new execution context, within which that function is executed. This execution context also gets a reference to its outer environment. 
 This outer environment or context is called global scope. 
 Variables and functions defined here are available everywhere.
-Whereas in the function context variables and fucntions defined here are only available within this function.
+Whereas in the function context, variables and functions defined there are only available within that function.
     
     
     
