@@ -68,7 +68,7 @@ Primitive Types: They represent a single immutable value. The primitive types ar
     6. Symbol   : A symbol is a unique and immutable data type. May be used as an identifier for Object Properties.
 
 
-    
+These are the basics, to start adding behaviour to you web apps. Happy coding!
     
     
     
