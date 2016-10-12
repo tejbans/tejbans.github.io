@@ -10,7 +10,9 @@ Javascript is one of the key programming lanaguages used on the web today. Lets 
     Variable definitions should always start with the keyword 'var' (see example below).
     Notice that no types are declared in JavaScript.
      Ex: var greeting = "hello";
-    Reason that is, is because JavaScript is a 'dynamically typed language'. That means JavaScript engine figures out the type of a particular variable at runtime. And it also means that the same variable can hold different types during the life of the execution of the program.
+    Reason that is, is because JavaScript is a 'dynamically typed language'. 
+    That means JavaScript engine figures out the type of a particular variable at runtime.
+    And it also means that the same variable can hold different types during the life of the execution of the program.
     
 ### Functions
     Functions are defined by using the keyword function followed by the function name. See below
