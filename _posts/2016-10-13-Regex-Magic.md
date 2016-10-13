@@ -22,7 +22,7 @@ Most regex expressions consist of the following.
  
 2. Meta-characters: They do not mean what they look like. They usually refer to something else. For example, \d could refer to any digit.
 
-3. Vertical Bar: The | is a symbol of boolean OR. It gives an option to match any of the things it delimits.
+3. Vertical Bar: The &#124; is a symbol or boolean OR. It gives an option to match any of the things it delimits.
 
 4. Quantifiers: They specify how many of the concerned pattern needs to be matched.
 
@@ -84,4 +84,5 @@ Regular Expression |	Meaning
  /\(\d{3}\)\s\d{3}-\d{4}/	| As above, but using the count specifier
  /^\t+\S+\s*/ | Any line of text starting with one or more tabs, containing at least one nonwhitespace characer, followed by no or some whitespace
  /^b[aeiouy]+t/ | Any line of text starting with b followed by any combination of 1 or more vowels and then the letter t/
+
 
