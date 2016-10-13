@@ -34,7 +34,7 @@ Let's look at Meta-characters in a little more detail.
 
 Meta-character |	Description
 --- | --- | ---
-^	| Start of a string
+^	|   Start of a string
 $	| End of a string
 \t |	Tab
 \n | Newline
