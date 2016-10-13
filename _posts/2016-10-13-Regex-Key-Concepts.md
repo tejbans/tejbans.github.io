@@ -51,6 +51,8 @@ $	| End of a string
 
 And if you want to match a Meta-character literally you need to use \ to escape it. For example, '\\.' would just match the . character.
 
+---
+
 Expression |	Meaning
 --- | --- | ---
 [ ] | Matches a single character that is contained within the brackets.
