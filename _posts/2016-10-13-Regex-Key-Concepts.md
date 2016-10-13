@@ -34,8 +34,6 @@ Let's look at Meta-characters in a little more detail.
 
 MetaCharacter  |	  Description
 | --- | --- |
-
-
 ^	|   Start of a string
 $	| End of a string
 \t |	Tab
