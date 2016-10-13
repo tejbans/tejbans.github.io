@@ -78,7 +78,7 @@ Regular Expression |	Meaning
 /a&#124;bc/ | "a" or "bc"
  /(a&#124;b)c/	| "ac" or "bc"
  /(a&#124;b)+c/	| one or more a's or b's, followed by c: ac, bc, aac, abc, aaac, abbabababbac.
- /(a&#124;A)\ssample\smatch/	|  "A" or "a" followed by one whitespace character, then "sample", then one whitespace character, then "match".
+ /(a&#124;A)\ssample\smatch/	|   "A" or "a" followed by one whitespace character, then "sample", then one whitespace character, then "match".
 /\d\d\d-\d\d\d-\d\d\d\d/	| Any phone number like this: 250-123-1234
 /\(\d\d\d\)\s\d\d\d\-\d\d\d\d/	| Any North American phone number like this: (250) 123-1234
  /\(\d{3}\)\s\d{3}-\d{4}/	| As above, but using the count specifier
