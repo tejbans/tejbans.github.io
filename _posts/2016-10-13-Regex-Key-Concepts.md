@@ -70,7 +70,7 @@ And if you want to match a Meta-character literally you need to use \ to escape 
 Let's look at a few pattern matches to see how they go together.
 
 **Regular Expression** |	**Meaning**
---- | --- | ---
+--- | ---: |
 /a.c/	| the letter a followed by any character then c
  /a+c/	| one or more a's followed by c
  /a*c/	| zero or more a's followed by c, so even "c" matches.
