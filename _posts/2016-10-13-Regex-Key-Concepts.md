@@ -33,7 +33,7 @@ Most regex expressions consist of the following.
 Let's look at Meta-characters in a little more detail.
 
 **MetaCharacter**  |	  **Description**
-| --- | ---: |
+| --- | :---: |
 ^	|  Start of a string
 $	| End of a string
 \t |	Tab
@@ -54,7 +54,7 @@ And if you want to match a Meta-character literally you need to use \ to escape 
 ---
 
 **Expression** |	**Meaning**
---- | --- | ---
+--- | :---: |
 [ ] | Matches a single character that is contained within the brackets.
 [^ ] | Matches a single character that is not contained within the brackets.
 [a-d] | Matches any of the characters in the range a-d.
@@ -70,7 +70,7 @@ And if you want to match a Meta-character literally you need to use \ to escape 
 Let's look at a few pattern matches to see how they go together.
 
 **Regular Expression** |	**Meaning**
---- | ---: |
+--- | :---: |
 /a.c/	| the letter a followed by any character then c
  /a+c/	| one or more a's followed by c
  /a*c/	| zero or more a's followed by c, so even "c" matches.
