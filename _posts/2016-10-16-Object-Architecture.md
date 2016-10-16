@@ -25,7 +25,7 @@ The next question is, what are the actions a car can do, or can be done by the c
 Let’s take some of the obvious ones:
     
     Car can carry passengers
-    Car can drive
+    Car can accelerate
     Car can brake
 
 In Object Oriented programming, these actions, are called **methods**. They allow the objects to do things, and, also provide a way to read/write the properties of the object.
