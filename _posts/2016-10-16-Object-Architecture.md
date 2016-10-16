@@ -70,9 +70,9 @@ In OOP, you will sometimes have classes that are not intended to be used directl
 ### Summary
 
 
-Leave you with an expert from a 1994 Rolling Stone interview, where Steve Jobs explains exactly what object-oriented software is.
+Will leave you with an expert from a 1994 Rolling Stone interview, where Steve Jobs explains exactly what object-oriented software is.
 
-> Jeff Goodell: Would you explain, in simple terms, exactly what object-oriented software is?
+> Interviewer: Would you explain, in simple terms, exactly what object-oriented software is?
 
 >Steve Jobs: Objects are like people. They’re living, breathing things that have knowledge inside them about how to do things and have memory inside them so they can remember things. And rather than interacting with them at a very low level, you interact with them at a very high level of abstraction, like we’re doing right here.
 
