@@ -52,13 +52,10 @@ At this point , we’ll change terms, and instead of calling these objects, we�
 
 ### How can we create Trucks/ Buses ?
 
-Now how do we create a Truck or Bus. How can the above knowledge help us be more efficient at creating any type of Vehicle not just a car.
+Now how do we create a Truck or a Bus. How can the above knowledge help us be more efficient at creating any type of Vehicle not just a car.
+Using our previous example we can now have a class called vehicle, with all the properties and methods common to our three types of vehicles. This is called the **parent class**, and the three vehicles are it’s **subclasses**. 
 
-
-Using our example we  now have a class called vehicle, with all the properties and methods common to our three types of vehicles. This is called the parent class, and the three vehicles are it’s subclasses. 
-
-
-What’s important to note is that those common properties and methods only need to be defined in the parent class level. The children automatically have access to these, and so defining them there is not necessary. This concept is called inheritance.
+What’s important to note is that those common properties and methods only need to be defined in the parent class level. The children automatically have access to these, and so defining them there is not necessary. This concept is called **inheritance**.
 
 
 ### Inheritance
