@@ -21,6 +21,7 @@ In Object Oriented Programming, the features that describe an object, are called
 ### Behavior of an Object
 
 The next question is, what are the actions a car can do, or can be done by the car?
+
 Let’s take some of the obvious ones:
     
     Car can carry passengers
