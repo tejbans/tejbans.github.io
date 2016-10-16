@@ -7,12 +7,15 @@ title: Object Oriented Programming / OOP
 
 What is Object oriented programming? as the name implies,  its all about the Objects. But what does that really mean?
 Let’s look at some real-world examples to find out.Imagine an object that most people can relate to, a car.
+
 How can we describe a car?
 
 ![alt text](http://tejbans.github.io/images/Pagani.jpg)
 
 
-Well, it has certain attributes such as the color, make, model, year, mileage, and vin. Each of these attributes, make each car what it is. In Object Oriented Programming, the features that describe an object, are called properties.
+Well, it has certain attributes such as the color, make, model, year, mileage, and vin. Each of these attributes, make each car what it is.
+
+In Object Oriented Programming, the features that describe an object, are called properties.
 
 ### Behavior of an Object
 
