@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Object Architecture Simplified...
+title: Simply Objects...
 ---
 
-### Object Architecture
+### Object Oriented Programming / OOP
 
 As the name implies,  its all about the Objects. But what does that really mean?
 Let’s look at some real-world examples to see.
