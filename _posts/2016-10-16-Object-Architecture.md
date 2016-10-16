@@ -6,18 +6,17 @@ title: Simply Objects...
 ### Object Oriented Programming / OOP
 
 As the name implies,  its all about the Objects. But what does that really mean?
-Let’s look at some real-world examples to see.
-
-Imagine an object that most people can relate to, a car. How can we describe a car?
+Let’s look at some real-world examples to see.Imagine an object that most people can relate to, a car.
+How can we describe a car?
 
 ![alt text](http://tejbans.github.io/images/Pagani.jpg)
 
 
- Well, it has attributes such as the color, make, model, year, mileage, and vin. Each of these attributes make each car what it is. In Object Oriented Programming, the features that describe an object, are called properties.
+Well, it has attributes such as the color, make, model, year, mileage, and vin. Each of these attributes, make each car what it is. In Object Oriented Programming, the features that describe an object, are called properties.
 
 ### Behavior of an Object
 
-The next question is, what are the actions a car can do, or can be done to the car? Let’s take some of the obvious ones:
+The next question is, what are the actions a car can do, or can be done by the car? Let’s take some of the obvious ones:
 
 Car can drive
 Car can carry passengers
@@ -32,11 +31,10 @@ For example - After you buy the car, you may decide you don’t like the color a
 
 Now that we have properties, methods, and ways to read or set/change the properties through setter and getter methods, you may be wondering, how do we create the car/objects in the first place?
 
-The answer is, using a factory or as it is referred to in object orientation a constructor . A constructor is a special method which creates an object. After you’ve created an object, you have an instance of it. This process is called **instantiation**.
+The obvious answer is, using a car factory or as it is referred to in object orientation, a **constructor** . A constructor is a special method which creates an object. After you’ve created an object, you have an instance of it. This process is called **instantiation**.
 
 
 Example
-
 
 Lets go back to the car example. We are at the factory, and we instantiate our car by using a constructor method to create it. This special method takes inputs for the model, color, and VIN number, and outputs a brand new car.
 
