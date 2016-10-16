@@ -10,7 +10,8 @@ Let’s look at some real-world examples to see.
 
 Imagine an object that most people can relate to, a car. How can we describe a car?
 
-![alt text](https://github.com/tejbans/tejbans.github.io/blob/master/images/Pagani.jpg "Car")
+![alt text][logo]
+[logo]: https://github.com/tejbans/tejbans.github.io/blob/master/images/Pagani.jpg "Car"
 
  Well, it has attributes such as the color, make, model, year, mileage, and vin. Each of these attributes make each car what it is. In Object Oriented Programming, the features that describe an object, are called properties.
 
