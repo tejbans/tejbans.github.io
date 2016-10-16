@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Simply Objects...
+title: Object Oriented Programming / OOP
 ---
 
-### Object Oriented Programming / OOP
+### Simply Objects
 
 As the name implies,  its all about the Objects. But what does that really mean?
 Let’s look at some real-world examples to find out.Imagine an object that most people can relate to, a car.
