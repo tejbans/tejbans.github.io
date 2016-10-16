@@ -16,7 +16,7 @@ How can we describe a car?
 
 Well, it has certain attributes such as the color, make, model, year, mileage, and vin. Each of these attributes, make each car what it is.
 
-In Object Oriented Programming, the features that describe an object, are called properties.
+In Object Oriented Programming, the features that describe an object, are called **properties**.
 
 ### Behavior of an Object
 
