@@ -38,16 +38,16 @@ Example
 
 Lets go back to the car example. We are at the factory, and we instantiate our car by using a constructor method to create it. This special method takes inputs for the model, color, and VIN number, and outputs a brand new car.
 
-At this point , we’ll change terms, and instead of calling these objects, we’ll now call them classes. Example the Car Class
+At this point , we’ll change terms, and instead of calling these objects, we’ll now call them **classes**. Example the Car Class
 
-![alt text](https://github.com/tejbans/tejbans.github.io/blob/master/images/classes_and_objects.jpg "Car Objects")
+![alt text](http://tejbans.github.io/images/classes_and_objects.jpg "Car Objects")
 
-Classes are “blueprints” for creating a group of objects.
-– A car class to create car objects
+    Classes are “blueprints” for creating a group of objects.
+      – A car class to create car objects
 
-• The blueprint defines
-– The class’s properties as variables
-– The class’s behavior as methods
+    The blueprint defines
+      – The class’s properties as variables
+      – The class’s behavior as methods
 
 
 ### How can we create Trucks/ Buses ?
