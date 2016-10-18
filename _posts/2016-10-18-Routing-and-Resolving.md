@@ -34,7 +34,7 @@ The first step is to inject the ui-router as a dependency  in your module.
 
 Second, designate where in your HTML page you would like the views to be dynamically placed. This is achieved by placing a custom directive called **ui-view**.
 	
-	<ui-view></uiview>
+	<ui-view></ui-view>
 
 ### Defining the routes
 
