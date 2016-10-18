@@ -4,7 +4,7 @@ title: Routing and Resolving
 ---
 
 
-Single page web applications(SPAs) are very popular nowadays. But what is an SPA?
+Single page web applications (SPAs) are very popular nowadays. But what is an SPA?
 
 From wikipedia.
 
@@ -22,9 +22,11 @@ And this is where **routing** comes in. Routing is how we define the different v
 
 The two most commonly used packages for defining the routes in an angularjs app are ngRoute and ui-router. In ngRoute every route must be represented by a url. 
 
-In ui-router - which is a open source project, the main concept is of a ‘UI state’. For example, you can have a route with no unique url for that route whatsoever. However, url routing is also supported so you can have a state that is associated with a particular URL.
+In ui-router (which is a open source project), the main concept is of a ‘UI state’. For example, you can have a route with no unique url for that route whatsoever.
 
-Also nested views are supported. Let's look at ui-router in more details. After you have installed and referenced ui-router in the your project.
+However, url routing is also supported so you can have a state that is associated with a particular URL.
+
+Let's look at ui-router in more details. After you have installed and referenced ui-router in the your project.
 
 The first step is to inject the ui-router as a dependency  in your module.
 
@@ -37,7 +39,7 @@ Second, designate where in your HTML page you would like the views to be dynamic
 
 ### Defining the routes
 
-ui-router comes with two essential services, $state and $urlRouter. We have to inject the provider versions of these services into the angular.config method to configure the routes. Like below.
+ui-router comes with two essential services, $state and $urlRouter. We have to inject the provider versions of these services into the angular.config method to configure the routes.
 
 	angular
 	  .module('app', ['ui.router']])
@@ -52,10 +54,15 @@ ui-router comes with two essential services, $state and $urlRouter. We have to i
 	  });
 
 
-So we give each state a unique name that we'll be able to refer to throughout our application. Ex.‘home’ in above.
-We can also optionally associate a URL with a particular UI state. Then  we specify an HTML template, the contents of which will be inserted into the ui-view tag in our HTML page( home.html in example above). Finally we specify the controller that is associated with the view template(Ex. HomeController).
+So we give each state a unique name that we'll be able to refer to throughout our application, ‘home’ in above example.
 
-For cases where the URL has been mistyped by the user or just a non-existent url, a common practice is to configure the URL router service provider by executing it's otherwise method. This configuration tells the UI router that when it tries to match a browser URL with a URL associated with a particular declared state and it can't find any matches, it should default to the URL declared in the otherwise method. So in example above it will default to the ‘/’ state.
+We can also optionally associate a URL with a particular UI state.In this case its '/'.
+
+Then  we specify an HTML template, the contents of which will be inserted into the ui-view tag in our HTML page (home.html in example above).
+
+Finally we specify the controller that is associated with the view template (Ex. HomeController).
+
+For cases where the URL has been mistyped by the user or its just a non-existent url, a common practice is to configure the URL router service provider by executing it's otherwise method. This configuration tells the ui-router that when it tries to match a browser URL with a URL associated with a particular declared state and it can't find any matches, it should default to the URL declared in the otherwise method. So in example above it will default to the ‘/’ state.
 
 
 
