@@ -20,7 +20,7 @@ And this is where **routing** comes in. Routing is how we define the different v
 
 ### Routing
 
-The two most commonly used packages for defining routing/navigation in an angularjs app are ngRoute and ui-router. In ngRoute  every route must be represented by a url. 
+The two most commonly used packages for defining the routes in an angularjs app are ngRoute and ui-router. In ngRoute every route must be represented by a url. 
 
 In ui-router - which is a open source project, the main concept is of a ‘UI state’. For example, you can have a route with no unique url for that route whatsoever. However, url routing is also supported so you can have a state that is associated with a particular URL.
 
