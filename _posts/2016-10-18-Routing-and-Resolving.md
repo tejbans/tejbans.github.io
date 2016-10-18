@@ -22,10 +22,11 @@ And this is where **routing** comes in. Routing is how we define the different v
 
 The two most commonly used packages for defining the routes in an angularjs app are **ngRoute** and **ui-router**. In ngRoute every route must be represented by a url. 
 
-In ui-router (which is a open source project), the main concept is of a ‘UI state’. For example, you can have a route with no unique url for that route whatsoever.
+In ui-router (which is a open source project), the main concept is of a ‘UI state’. For example, you can have a route with no unique url for that route whatsoever.However, url routing is also supported so you can have a state that is associated with a particular URL.
 
-However, url routing is also supported so you can have a state that is associated with a particular URL. Let's look at ui-router in more details. After you have installed and referenced ui-router in the your project.
+Let's look at ui-router in more details.
 
+After you have installed and referenced ui-router in the your project.
 The first step is to inject the ui-router as a dependency  in your module.
 
 	angular
@@ -54,11 +55,11 @@ ui-router comes with two essential services, $state and $urlRouter. We have to i
 
 So we give each state a unique name that we'll be able to refer to throughout our application, **home** in above example.
 
-We can also optionally associate a URL with a particular UI state. In this case its '/'.
+We can also optionally associate a URL with a particular UI state. In this case its **/**.
 
-Then  we specify an HTML template, the contents of which will be inserted into the ui-view tag in our HTML page. In example above its **home.html**.
+Then we specify an HTML template, the contents of which will be inserted into the ui-view tag in our HTML page. In example above its **home.html**.
 
-Finally we specify the controller that is associated with the view template (Ex. HomeController).
+Finally, we specify the controller that is associated with the view template (Ex. HomeController).
 
 For cases where the URL has been mistyped by the user or its just a non-existent url, a common practice is to configure the URL router service provider by executing it's **otherwise** method. This configuration tells the ui-router that when it tries to match a browser URL with a URL associated with a particular declared state and it can't find any matches, it should default to the URL declared in the otherwise method. So in example above it will default to the ‘/’ state.
 
@@ -70,7 +71,7 @@ In many cases when we route to a state/url, we might require some data from the 
 
 We could do that in the controller, but that means that the view will usually load first and then  the data. This does not lead to a very good user experience. So what's the solution?
 
-The solution is to use the ‘resolve’ property in our route configuration. Let look at an example. 
+The solution is to use the ‘resolve’ property in our route configuration. Let's look at an example. 
 
 	 .state('expenses',{
 		url: 'expenses',
@@ -83,7 +84,7 @@ The solution is to use the ‘resolve’ property in our route configuration. Le
 		}
 	      })
 
-Here in our state called *expenses* we have defined a **resolve** property. On the property we define a key called ‘expenses’  which is assigned a function and injected with a service like ExpenseService in above example. And we are calling a asynchronous method ‘getExpenses’ on the service, which returns a promise.
+Here in our state called *expenses* we have defined a **resolve** property. On the property we define a key called ‘expenses’  which is assigned a function and injected with a service like ExpenseService in above example. And we are calling a asynchronous method getExpenses() on the service, which returns a promise.
 
 Once the promise is resolved ui-router will render the view.
 
