@@ -4,17 +4,18 @@ title: Routing and Resolving
 ---
 
 
-Single Page web applications(SPAs) are very popular nowadays. But what is an SPA?
+Single page web applications(SPAs) are very popular nowadays. But what is an SPA?
 
 From wikipedia.
 
 >A single-page application (SPA) is a web application or website that fits on a single web page with the goal of providing a user experience similar to that of a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load, or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
 
+But wouldn't even a simple app, have at least a couple of different views, where the majority of the content on the page will have to be replaced with some other content.?
 
-I first heard of SPAs when starting to learn the javascript framework AngularJS.
-And **routing** is one of the key concepts to know,because, even a simple app, will, probably have at least a couple of different views, where the majority of the content on the page will have to be replaced with some other content.
+How do we split our app views into logical chunks? Preferably with different url's. Also users should be able to get from one view in your application to another view.
 
-Users will need to be able to get from one view in your application to another view. And routing is how we define the different views in a angularjs application.
+
+And this is where **routing** comes in. Routing is how we define the different views in a angularjs application.
 
 
 ### Routing
