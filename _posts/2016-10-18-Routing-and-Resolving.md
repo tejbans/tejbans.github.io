@@ -67,11 +67,11 @@ For cases where the URL has been mistyped by the user or its just a non-existent
 
 ### Resolving
 
-In many cases when we route to a state/url, we might require some data from the server.
+In many cases when we navigate to a state/url, we might require some data from the server.
 
 We could do that in the controller, but that means that the view will usually load first and then  the data. This does not lead to a very good user experience. So what's the solution?
 
-The solution is to use the ‘resolve’ property in our route configuration. Let's look at an example. 
+The solution is to use the **resolve** property in our route configuration. Let's look at an example. 
 
 	 .state('expenses',{
 		url: 'expenses',
