@@ -88,7 +88,7 @@ Here in our state called *expenses* we have defined a **resolve** property. On t
 
 Once the promise is resolved ui-router will render the view.
 
-Now how do we use this access this data? To access the data we inject the key defined in the resolve property - ‘expenses’ in this case, into our controller.
+Now how do we use this access this data?. To access the data we inject the key defined in the resolve property - *expenses* in this case, into our controller.
 
 	function ExpensesController(expenses) {
 		var ctrl = this;
