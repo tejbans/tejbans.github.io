@@ -95,3 +95,4 @@ Now how do we use this access this data? To access the data we inject the key de
 		ctrl.expenses = expenses;
 	}
 
+This way the data will be fetched first and then the view is rendered.
