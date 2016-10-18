@@ -55,9 +55,9 @@ For cases where the URL has been mistyped by the user or just a non-existent url
 
 
 
-Resolving
+### Resolving
 
-In many cases when we route to a state or url, we might require some data from the server. We could do that in the controller, but that means that the view will usually load first and then  the data.  This does not lead to a very good user experience. So what's the solution?
+In many cases when we route to a state or url, we might require some data from the server. We could do that in the controller, but that means that the view will usually load first and then  the data. This does not lead to a very good user experience. So what's the solution?
 
 Solution is to use the ‘resolve’ property in our route configuration. Let look at an example . 
 
@@ -72,10 +72,10 @@ Solution is to use the ‘resolve’ property in our route configuration. Let lo
 		}
 	      })
 
-Here in our state called ‘expenses’  we have defined a resolve property.  In the property we define a key called ‘expenses’  which is assigned a function  injected with a service( ExpenseService). And we are calling a asynchronous method ‘getExpenses’ on the service.
+Here in our state called ‘expenses’ we have defined a resolve property. In the property we define a key called ‘expenses’  which is assigned a function and injected with a service-ExpenseService. And we are calling a asynchronous method ‘getExpenses’ on the service.
 This returns a promise . Once the promise is resolved ui-router will render the view.
 
-Now how do we use this access this data? To access the data we inject the key ‘expenses’ in this case into our controller.
+Now how do we use this access this data? To access the data we inject the key defined in the resolve property - ‘expenses’ in this case, into our controller.
 
 function ExpensesController(expenses) {
 	var ctrl = this;
