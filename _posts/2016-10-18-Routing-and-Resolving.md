@@ -24,25 +24,26 @@ In ui-router( which is a open source project), the main concept is of a ‘UI st
 
 The first step is to inject the ui-router as a dependency  in your module.
 
-angular
-     .module(‘app’, [ui.router])
+	angular
+     	.module(‘app’, [ui.router])
 
 Second, designate where in your HTML page you would like the views to be dynamically placed. This is achieved by placing a custom directive called ui-view.
+	
 	<ui-view></uiview>
 
 Now to  define the routes. ui- router comes with two essential services, $state and $urlRouter. We will inject the provider versions of these services into the angular.config method to confugure the routes. Like below
 
-angular
-  .module('app', ['ui.router']])
-  .config(function($stateProvider, $urlRouterProvider){
-    $stateProvider
-      .state('home',{
-        url: '/',
-        templateUrl: 'app/templates/home.html',
-        controller: 'HomeController as ctrl'
-      })
-$urlRouterProvider.otherwise('/');
-  });
+	angular
+	  .module('app', ['ui.router']])
+	  .config(function($stateProvider, $urlRouterProvider){
+	    $stateProvider
+	      .state('home',{
+		url: '/',
+		templateUrl: 'app/templates/home.html',
+		controller: 'HomeController as ctrl'
+	      })
+	$urlRouterProvider.otherwise('/');
+	  });
 
 
 As you see we give each state a unique name that we'll be able to refer to throughout our application. Ex. ‘home’ in above We can also optionally associate a URL with a particular UI state. Then  we specify an HTML template, the contents of which will be inserted into the UI view tag in our HTML page. (home.html in example above). Finally we specify the controller that is associated with the view template( Ex. HomeController).
@@ -57,16 +58,16 @@ In many cases when we route to a state or url, we might require some data from t
 
 Solution is to use the ‘resolve’ property in our route configuration. Let look at an example . 
 
- .state('expenses',{
-        url: 'expenses',
-        templateUrl: 'app/templates/home/expenses.html',
-        controller: 'ExpensesController as ctrl',
-        resolve: {
-          expenses: function(ExpenseService){
-            return ExpenseService.getExpenses();
-          }
-        }
-      })
+	 .state('expenses',{
+		url: 'expenses',
+		templateUrl: 'app/templates/home/expenses.html',
+		controller: 'ExpensesController as ctrl',
+		resolve: {
+		  expenses: function(ExpenseService){
+		    return ExpenseService.getExpenses();
+		  }
+		}
+	      })
 
 Here in our state called ‘expenses’  we have defined a resolve property.  In the property we define a key called ‘expenses’  which is assigned a function  injected with a service( ExpenseService). And we are calling a asynchronous method ‘getExpenses’ on the service.
 This returns a promise . Once the promise is resolved ui-router will render the view.
