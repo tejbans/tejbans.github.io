@@ -1,24 +1,27 @@
 
+---
+layout: post
+title: Routing and Resolving
+---
 
 
+Single Page web applications(SPAs) are very popular nowadays. But what is an SPA?
 
-Single Page web applications(SPAs) are very popular nowadays. But what does SPA mean?
+>From wikipedia.
 
-From wikipedia.
+>A single-page application (SPA) is a web application or website that fits on a single web page with the goal of providing a user experience similar to that of a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load,[1] or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
 
-A single-page application (SPA) is a web application or website that fits on a single web page with the goal of providing a user experience similar to that of a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load,[1] or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
 
-I first heard of the term when I started to learn the javascript framework AngularJS.
-Made me wonder that even a simple app, will, probably have at least a couple of different views, where the majority of the content on the page will have to be replaced with some other content.  Users will need to be able to get from one view in your application to another view.
+I first heard of SPAs when I started to learn the javascript framework AngularJS. And routing is one of the key concepts because, even a simple app, will, probably have at least a couple of different views, where the majority of the content on the page will have to be replaced with some other content.  Users will need to be able to get from one view in your application to another view.
 
-So how do we do that in a single page application?. As I discovered this is where routing come in.
+So routing is how we define the defiirent views in a angularjs application
 
 
 ### Routing
 
-The process of defining these different views is called routing.The two most commonly used packages for defining routing/navigation in an angularjs app are ngRoute and ui-router. In ngRoute  every route must be represented by a URL. 
+The two most commonly used packages for defining routing/navigation in an angularjs app are ngRoute and ui-router. In ngRoute  every route must be represented by a URL. 
 
-In ui-router( which is a open source project ), the main concept is of a ‘UI state’. For example you can have a route with no unique url for that route whatsoever. However, URL routing is  also supported so you can have a state that is associated with a particular URL. Also nested views are supported. Let look at ui-router in more details. After you have installed and referenced ui-router in the your project.
+In ui-router( which is a open source project), the main concept is of a ‘UI state’. For example you can have a route with no unique url for that route whatsoever. However, URL routing is  also supported so you can have a state that is associated with a particular URL. Also nested views are supported. Let look at ui-router in more details. After you have installed and referenced ui-router in the your project.
 
 The first step is to inject the ui-router as a dependency  in your module.
 
