@@ -44,5 +44,5 @@ Another technique that I learnt in my coding journey was that sometimes one can 
 
 Clearly see that parallel in life,  I remember many times being caught up reflecting on things in the past, which is a huge time sink. Instead using this technique I can clearly move the ball along in the direction that I want.
 
-I Understand that most of the time coding resembles life, because we are trying to solve real life problems and hence modelling real world objects using code, but getting into that mindset while trying to solve a problem using code, is a good reminder of how we can use the same techniques in solving any problems in general. 
+I Understand that most of the time coding resembles life, because we are trying to solve real life problems and hence modelling real world objects using code, but getting into that mindset while trying to solve a problem using code, is a good reminder of how I can use the same techniques in solving any problem in general. 
 
