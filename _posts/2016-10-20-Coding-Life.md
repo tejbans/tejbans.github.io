@@ -8,7 +8,7 @@ During the past several months I have been on a journey to learn web development
 
 The journey itself has been very satisfying and stimulating. I never knew that solving a tough coding lab and getting through a million errors (maybe less) could incite such joy in life.
 
-Talking of life, learning coding I have come to realise how much it is related to life and everything around us. 
+Talking of life, learning programming I have come to realise how much it is related to life and everything around us. 
 
 ### Objects and Classes
 
